@@ -160,6 +160,9 @@ input {
 .burger-btn {
   cursor: pointer;
 }
+.burger-btn img {
+  display: block;
+}
 
 main {
   flex-grow: 1;
