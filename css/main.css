@@ -245,7 +245,6 @@ main {
 
 /* MAIN ONE */
 .main-one {
-  width: 100%;
   margin-top: 13rem;
   margin-bottom: 13rem;
 }
@@ -587,6 +586,10 @@ main {
 
 /* Large devices (dsktops, less than 1200px */
 @media (max-width: 1199.98px) {
+  .main-two{
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* Medium devices (ablets, less than 992px */
 @media (max-width: 991.98px) {
