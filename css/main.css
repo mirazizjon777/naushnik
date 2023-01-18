@@ -545,6 +545,7 @@ main {
   margin-left: 10rem;
 }
 .main-five__footer {
+  display: flex;
   background-color: var(--white-bg-color);
   border-radius: 7.3rem;
   padding-left: 3rem;
@@ -687,11 +688,13 @@ main {
     display: none;
   }
   .main-five__footer {
-    padding-left: 0.7rem;
-    font-size: 1rem;
+
+    padding-left: 1rem;
   }
   .main-five__btn {
-    padding: 0.5rem 0.7rem;
+    align-self: center;
+    justify-self: center;
+    padding: 0.5rem 1rem;
   }
 }
 /* X-Small devices portrait phones, less than 576px */
